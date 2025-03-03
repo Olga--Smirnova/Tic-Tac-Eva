@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Evangelion Regular";
+  src: url('/../public/fonts/evangelion-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Evangelion Italic";
+  src: url('/../public/fonts/evangelion-italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$fonts: (
+    regular: "Evangelion Regular",
+    italic: "Evangelion Italic",
+);

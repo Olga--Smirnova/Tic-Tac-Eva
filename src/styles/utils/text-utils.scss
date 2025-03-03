@@ -1,0 +1,16 @@
+.text-xs {
+    font-size: 2rem;
+  }
+  
+  .t-italic {
+    font-family: map-get($fonts, regular);
+  }
+  
+  .t-red {
+    color: map-get($color-pallet, red) !important;
+  }
+  
+  
+  .lh-02 {
+    line-height: .2;
+  }

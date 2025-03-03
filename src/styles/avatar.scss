@@ -1,0 +1,39 @@
+// hovarable avatar
+.hoverImgZoom {
+    text-decoration: none;
+
+    & img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover img,
+    &:focus img {
+      transform: scale(1.15);
+    }
+}
+
+// Looser avatar state
+.img-crossed {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+  
+    &:after,
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 70px;
+      z-index: 10;
+    
+      width:20px;
+      height: 172px;
+      background: map-get($color-pallet, red);;
+      transform: rotate(45deg);
+    }
+
+    &:before {
+      transform: rotate(-45deg);
+    }
+}

@@ -1,0 +1,19 @@
+.box {
+    width: 32.5%;
+    aspect-ratio: 1 / 1; 
+    color: map-get($color-pallet, white);
+    background: map-get($color-pallet, dark);
+    border: 1px solid map-get($color-pallet, white);
+  }
+  
+.winning-box {
+  transition: all .09s ease-in;
+
+  &.pilot-winBox {
+    background: map-get($color-pallet, green);
+  }
+
+  &.angel-winBox {
+    background: map-get($color-pallet, red);
+  }
+}

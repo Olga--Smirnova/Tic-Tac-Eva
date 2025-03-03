@@ -1,0 +1,20 @@
+// Vars
+@import "styles/vars/color-vars.scss";
+@import "styles/vars/font-vars.scss";
+
+@import "styles/typography.scss";
+
+@import "styles/box.scss";
+@import "styles/button.scss";
+@import "styles/wrapper.scss";
+@import "styles/avatar.scss";
+
+// Utils
+@import "styles/utils/text-utils.scss";
+
+
+body {
+    font-family: map-get($fonts, regular);
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,14 @@
+.btn-danger {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  padding: 0 46px;
+  background-color: map-get($color-pallet, purple);
+  border-color: #765898;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: map-get($color-pallet, green);
+    border-color: map-get($color-pallet, green);
+  }
+}
